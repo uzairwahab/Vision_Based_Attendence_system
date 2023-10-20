@@ -1,9 +1,9 @@
 import argparse
 
-from src.com_in_ineuron_ai_collect_trainingdata.get_faces_from_camera import TrainingDataCollector
-from src.com_in_ineuron_ai_face_embedding.faces_embedding import GenerateFaceEmbedding
-from src.com_in_ineuron_ai_training.train_softmax import TrainFaceRecogModel
-from src.com_in_ineuron_ai_predictor.facePredictor import FacePredictor
+from src.collect_trainingdata.get_faces_from_camera import TrainingDataCollector
+from src.face_embedding.faces_embedding import GenerateFaceEmbedding
+from src.training.train_softmax import TrainFaceRecogModel
+from src.predictor.facePredictor import FacePredictor
 
 
 def collectUserImageForRegistration(imageSaveLocation):

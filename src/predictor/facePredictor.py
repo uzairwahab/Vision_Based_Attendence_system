@@ -1,7 +1,7 @@
 from mtcnn import MTCNN
 
 from src.insightface.deploy import face_model
-from src.com_in_ineuron_ai_detectfaces_mtcnn.Configurations import ConfigurationsPOJO
+from src.detectfaces_mtcnn.Configurations import ConfigurationsPOJO
 import warnings
 import sys
 import dlib

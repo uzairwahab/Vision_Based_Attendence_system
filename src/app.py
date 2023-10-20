@@ -13,10 +13,10 @@ import random
 from readme_renderer import txt
 
 from src.clientApp import collectUserImageForRegistration, getFaceEmbedding, trainModel
-from src.com_in_ineuron_ai_collect_trainingdata.get_faces_from_camera import TrainingDataCollector
-from src.com_in_ineuron_ai_face_embedding.faces_embedding import GenerateFaceEmbedding
-from src.com_in_ineuron_ai_predictor.facePredictor import FacePredictor
-from src.com_in_ineuron_ai_training.train_softmax import TrainFaceRecogModel
+from src.collect_trainingdata.get_faces_from_camera import TrainingDataCollector
+from src.face_embedding.faces_embedding import GenerateFaceEmbedding
+from src.predictor.facePredictor import FacePredictor
+from src.training.train_softmax import TrainFaceRecogModel
 
 
 class RegistrationModule:

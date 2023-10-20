@@ -22,7 +22,7 @@
 
 import tensorflow as tf
 
-from src.com_in_ineuron_ai_detectfaces_mtcnn.mtcnn2 import PNet, RNet, ONet
+from src.detectfaces_mtcnn.mtcnn2 import PNet, RNet, ONet
 from src.com_in_ineuron_ai_tracker_utils.tools import detect_face, get_model_filenames
 
 
